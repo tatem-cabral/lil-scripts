@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while true; do
+touch "$file_$(date +'%Y%m%d_%H%M').txt"
+sleep 60
+done
